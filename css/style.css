@@ -54,7 +54,7 @@ address {
   padding-right: 15px;
 }
 
-.header{ height: 80px;
+.header{ min-height: 80px;
 border-bottom: 1px solid #ECECEC;
 }
 .page-header-container{ display: flex;
@@ -62,7 +62,7 @@ border-bottom: 1px solid #ECECEC;
   .menu-nav{ margin-left:93px;
 }
 .logo {
-  font-family: "Releway"
+  font-family: var(--secondary-font)
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
@@ -294,11 +294,9 @@ font-weight: 400;
   letter-spacing: 0.03em;
   color:var(--secondary-text-color);
 }
- */
+
 .comand-section {
-  background: #f5f4fa;
-  
-padding-top: 94px;
+  background:#f5f4fa;
 padding-bottom: 94px;
 }
 .comand-title {
@@ -313,7 +311,7 @@ padding-bottom: 94px;
 .card { text-align: center;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+border-radius: 0px 0px 5px 5px;
 }
 .card-title {
 
@@ -332,7 +330,7 @@ padding-bottom: 30px;
 
   color:var(--secondary-text-color);
 }
-.detail-item{margin-bottom: 94px;}
+/* .detail-item{margin-bottom: 94px;} */
 /* .box {
   background: #ffffff;
 } */
@@ -396,7 +394,7 @@ padding-bottom: 30px;
   background: #2f303a;
  padding-top: 60px;
  padding-bottom: 60px;
- margin-top: 94px;
+
 }
 
 
@@ -419,7 +417,7 @@ padding-bottom: 30px;
 .logo-white {
   color: var(--hover-color)
 }
-.address{ padding-top: 20px;}
+.address{ margin-top: 20px;}
 .map-item {
 
   font-size: 14px;
@@ -454,19 +452,28 @@ padding-bottom: 30px;
 
 
 
-.portfolio-main-container { width: 1200px;
+.portfolio-main-container { 
+  width: 1200px;
+padding-bottom: 94px;
 
 }
-.button-section {width: 611px;}
+.button-section {display: flex;
+  justify-content: center;
+padding-top: 94px;
+padding-bottom: 34px;
+
+  /* width: 611px; */
+}
 
 .button-items{ 
-
-  height: 54px;
+padding-bottom: 16px;
+  /* height: 54px;
   margin-top: 94px;
-  margin-left: 280px;
-  margin-bottom: 34px;
+  margin-left: 280px; */
+  /* margin-bottom: 34px; */
 }
 .btn-list{display: inline-block
+ 
 }
 .btn-list+.btn-list{margin-left: 8px;}
 .btn-all{
@@ -500,7 +507,7 @@ gap: 30px;
 height: 404px;
 }   
 .portfolio-cont{
-height: 110px;
+/* min-height: 110px; */
 
   border-bottom:0.5px solid #EEEEEE;
  border-left:0.5px solid #EEEEEE;
@@ -509,12 +516,12 @@ height: 110px;
   padding-left: 24px;
 padding-top: 20px;
 padding-right:24px;
-
+padding-bottom: 20px;
 }
 .image-subject{
  margin-bottom:4px}
 
-.image-desc {padding-bottom: 20px;}
+/* .image-desc {padding-bottom: 20px;} */
 
 
 
