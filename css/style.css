@@ -64,7 +64,7 @@ border-bottom: 1px solid #ECECEC;
   .menu-nav{ margin-left:93px;
 }
 .logo {
-  font-family: var(--secondary-font)
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
@@ -82,7 +82,7 @@ color: #FFFFFF;
   
   color:var(--hover-color);
 }
-.logo:hover,.logo:focus{color: var(--hover-color)}
+.logo:hover,.logo:focus{color: var(--hover-color);}
 .header-list{display: flex; 
   margin-left: 294x;
   margin-right: auto;
@@ -184,7 +184,7 @@ border: 0;
 
 .feature-section{ 
   padding-bottom: 47px;
-}
+} 
 
 .hidden-title {
     position: absolute;
@@ -203,8 +203,8 @@ border: 0;
   /* justify-content: center; */
 }
 
-.detail-item{max-width: 370px;
-
+.detail-item{max-width:370px;
+padding-bottom: 0px;
 }
 .detail-item+.detail-item{
 
@@ -222,7 +222,7 @@ font-weight: 700;
   margin-bottom: 10px;
 }
 .detail-text {
-
+max-width: 270px;
 /* height: 75px; */
 font-weight: 400;
   font-size: 14px;
@@ -234,9 +234,10 @@ font-weight: 400;
 
 .affair-section{
 padding-top: 47px;
-/* padding-bottom: 94px; */
-}
+
+} 
 .affair-title{
+  padding-top: 0px;
 margin-bottom: 50px;
 font-weight: 700;
   font-size: 36px;
@@ -338,20 +339,16 @@ padding-bottom: 30px;
   background: #ffffff;
 } */
 /* .box-title {
-
  
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   color: var(--primary-text-color);
 } */
 /* .box-text {
-
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   color:var(--secondary-text-color);
 }
 .pic {
@@ -362,7 +359,6 @@ padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   color: var(--primary-text-color);
 }
 .pic-text {
@@ -370,7 +366,6 @@ padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   color:var(--secondary-text-color);
 }
 .avatar {
@@ -381,16 +376,12 @@ padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   color: var(--primary-text-color);
 }
 .avatar-text {
-
-
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   color: var(--secondary-text-color);
 } */
 .footer-box {
@@ -541,4 +532,3 @@ line-height: 1.9;
 letter-spacing: 0.03em;
 
 color:var(--secondary-text-color);}
-
